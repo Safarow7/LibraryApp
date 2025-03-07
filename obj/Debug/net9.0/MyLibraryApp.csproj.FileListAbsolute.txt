@@ -1,0 +1,14 @@
+D:\MyLibraryApp\bin\Debug\net9.0\MyLibraryApp.exe
+D:\MyLibraryApp\bin\Debug\net9.0\MyLibraryApp.deps.json
+D:\MyLibraryApp\bin\Debug\net9.0\MyLibraryApp.runtimeconfig.json
+D:\MyLibraryApp\bin\Debug\net9.0\MyLibraryApp.dll
+D:\MyLibraryApp\bin\Debug\net9.0\MyLibraryApp.pdb
+D:\MyLibraryApp\obj\Debug\net9.0\MyLibraryApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\MyLibraryApp\obj\Debug\net9.0\MyLibraryApp.AssemblyInfoInputs.cache
+D:\MyLibraryApp\obj\Debug\net9.0\MyLibraryApp.AssemblyInfo.cs
+D:\MyLibraryApp\obj\Debug\net9.0\MyLibraryApp.csproj.CoreCompileInputs.cache
+D:\MyLibraryApp\obj\Debug\net9.0\MyLibraryApp.dll
+D:\MyLibraryApp\obj\Debug\net9.0\refint\MyLibraryApp.dll
+D:\MyLibraryApp\obj\Debug\net9.0\MyLibraryApp.pdb
+D:\MyLibraryApp\obj\Debug\net9.0\MyLibraryApp.genruntimeconfig.cache
+D:\MyLibraryApp\obj\Debug\net9.0\ref\MyLibraryApp.dll

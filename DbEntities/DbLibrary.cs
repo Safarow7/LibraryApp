@@ -2,7 +2,7 @@ namespace DbEntities;
 
 public class DbLibrary
 {
-    private readonly Guid _id;
+    private readonly Guid? _id;
 
     public Guid Id
     {

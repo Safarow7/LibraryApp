@@ -9,10 +9,10 @@ public static class AuthorExtensions
       => new()
       {
             Id = author.Id,
-            FirstName = author.Firstname,
+            FirstName = author.FirstName,
             LastName = author.LastName,
             Birthday = author.Birthday,
-            Biograghy = author.Biography,
+            Biography = author.Biography,
             Books = author.Books
       };
 
@@ -20,10 +20,10 @@ public static class AuthorExtensions
       => new()
       {
             Id = author.Id,
-            FirstName = author.Firstname,
+            FirstName = author.FirstName,
             LastName = author.LastName,
             Birthday = author.Birthday,
-            Biograghy = author.Biography,
+            Biography = author.Biography,
             Books = author.Books
       };
 }

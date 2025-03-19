@@ -5,7 +5,7 @@ namespace Extensions;
 
 public static class TransactionExtentions
 {
-    public static BookTransctionDto BookTransctionToDto(this DbBookTransaction bookTransaction)
+    public static BookTransactionDto BookTransctionToDto(this DbBookTransaction bookTransaction)
         => new()
         {
             Id = bookTransaction.Id,

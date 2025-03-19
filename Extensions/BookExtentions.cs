@@ -12,7 +12,7 @@ public static class BookExtensions
             Name = book.Name,
             AuthorId = book.AuthorId,
             PublisherId = book.PublisherId,
-            PublishedAt = book.PublisherAt,
+            PublishedAt = book.PublishedAt,
             Genre = book.Genre,
             Count = book.Count
         };
@@ -24,7 +24,7 @@ public static class BookExtensions
             Name = book.Name,
             AuthorId = book.AuthorId,
             PublisherId = book.PublisherId,
-            PublishedAt = book.PublisherAt,
+            PublishedAt = book.PublishedAt,
             Genre = book.Genre,
             Count = book.Count           
         };

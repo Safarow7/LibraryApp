@@ -1,6 +1,6 @@
 using DbEntities;
 
-namespace DbContext;
+namespace DateBase;
 
 public static class DbContext
 {
@@ -11,8 +11,6 @@ public static class DbContext
     public static readonly Dictionary<Guid, DbBookTransaction> _bookTransactions = new();
 
     public static readonly Dictionary<Guid, DbLibrarian> _librarians = new();
-
-    public static readonly Dictionary<Guid, DbLibrary> _library = new();
 
     public static readonly Dictionary<Guid, DbLocation> _locations = new();
 

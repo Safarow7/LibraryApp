@@ -1,19 +1,15 @@
 namespace DbEntities;
 
-public class DbLibrary
+public static class DbLibrary
 {
-    private readonly Guid? _id;
+    public static string Title { get; set; } = "Library";
 
-    public Guid Id
-    {
-        get => _id ?? Guid.Empty;
-        init => _id = (value == Guid.Empty) ? Guid.NewGuid() : value;
-    }
+    public static DbLocation? Location { get; set; }
 
-    public string Name { get; set; } = string.Empty;
-    public Guid? LocationId { get; init; }
-    public List<Guid> BooksIds { get; init; } = new();
-    public List<Guid> LibrariansIds { get; init; } = new();
-    public List<Guid> ReadersIds { get; init; } = new();
-    public List<Guid> PublishersIds { get; init; } = new();
+    public static List<Guid> AuthorsIds { get; } = new();
+    public static List<Guid> BooksIds { get; } = new();
+    public static List<Guid> BooksTransactionIds { get; } = new();
+    public static List<Guid> LibrariansIds { get; } = new();
+    public static List<Guid> PublishersIds { get; } = new();
+    public static List<Guid> ReadersIds { get; } = new();
 }

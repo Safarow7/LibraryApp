@@ -1,5 +1,3 @@
-using Microsoft.VisualBasic;
-
 namespace DbEntities;
 
 public abstract class DbBasePerson

@@ -36,7 +36,6 @@ public class AuthorService : IAuthorService
     public DbAuthor? Get(Guid id)
     {
         DbContext._authors.TryGetValue(id, out DbAuthor? author);
-
         return author;
     }
 }

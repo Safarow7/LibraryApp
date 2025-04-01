@@ -14,7 +14,7 @@ public static class LibrarianExtentions
             Birthday = librarian.Birthday
         };
 
-    public static LibrarianDto LibrarianToDto(this Dblibrarian librarian)
+    public static LibrarianDto LibrarianToDto(this DbLibrarian librarian)
         => new()
         {
             Id = librarian.Id,

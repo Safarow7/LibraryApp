@@ -2,7 +2,7 @@ namespace DbEntities;
 
 public abstract class DbBasePerson
 {
-    private readonly Guid _id;
+    private readonly Guid? _id;
 
     public Guid Id
     {
@@ -13,9 +13,4 @@ public abstract class DbBasePerson
     public string FirstName { get; set; } = string.Empty;
     public string LastName { get; set; } = string.Empty;
     public DateTime Birthday { get; set; }
-
-    public static GetFullName()
-    {
-        return $"{FirstName} {Lastname}";
-    }
 }

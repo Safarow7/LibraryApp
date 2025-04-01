@@ -5,24 +5,24 @@ namespace Extensions;
 
 public static class LibraryExtensions
 {
-    public static Dblibrary DtoTolibrary(this LibraryDto library)
+    public static DbLibrary DtoTolibrary(this LibraryDto library)
         => new()
         {
             Id = library.Id,
             Name = library.Name,
-            Location = library.Location,
-            BooksIds = library.BooksIds,
-            LibrariansIds = library.LibrariansIds,
-            PublishersIds = library.PublishersIds,
+            LocationId = library.LocationId,
+            BooksIds = library.BooksIds!,
+            LibrariansIds = library.LibrariansIds!,
+            PublishersIds = library.PublishersIds!,
             TransactionsIds = library.TransactionsIds
         };
 
-    public static LibraryDto LibraryToDto(this Dblibrary library)
+    public static LibraryDto LibraryToDto(this DbLibrary library)
         => new()
         {
             Id = library.Id,
             Name = library.Name,
-            Location = library.Location,
+            LocationId = library.LocationId,
             BooksIds = library.BooksIds,
             LibrariansIds = library.LibrariansIds,
             PublishersIds = library.PublishersIds,

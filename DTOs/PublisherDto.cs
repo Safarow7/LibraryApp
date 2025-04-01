@@ -1,4 +1,4 @@
-namespase Entities;
+namespace Entities;
 
 public record PublisherDto
 {

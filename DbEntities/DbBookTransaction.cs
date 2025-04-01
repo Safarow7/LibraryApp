@@ -2,7 +2,7 @@ namespace DbEntities;
 
 public class DbBookTransaction
 {
-    private readonly Guid _id;
+    private readonly Guid? _id;
 
     public Guid Id
     {
@@ -14,6 +14,6 @@ public class DbBookTransaction
     public Guid ReaderId { get; set; }
     public DateTime IssuedAt { get; set; }
     public DateTime? ReturnedAt { get; set; }
-    public decimal MonetaryFine { get; set; }
+    public decimal AccruedFine { get; set; }
     public bool IsReturned { get; set; }
 }
